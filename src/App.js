@@ -1,30 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import './App.css';
+import ProjectList from "./components/ProjectList";
+import './styling/App.scss';
 
-class App extends Component {
-  render() {
+function App() {
     return (
       <main className="text-gray-400 bg-gray-900 body-font">
         <Navbar />
         <About />
-        <Projects />
+        <ProjectList />
         <Contact />
-     
-        <div className="App">
-            <div className="App-header">
-              <h2>Welcome to React.</h2>
-            </div>
-            <p className="App-intro">
-              To get started, edit <code>src/App.js</code> and save to reload.
-            </p>
-        </div> 
       </main>
     );
   }
-}
 
 export default App;
