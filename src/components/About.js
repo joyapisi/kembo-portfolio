@@ -16,12 +16,12 @@ export default function About() {
 
                 <p className="mb-8 leading-relaxed">
                     I am a 2D animator who is passionate about creating 
-                    visually appealing stories that capture my viewers'imagination and inspire them positively. 
+                    visually appealing stories that capture my viewers' imagination and inspire them positively. 
                     I always look forward to contribute my rigging and animation skills to various projects.
-                    If you have a project you need to be brought to life, feel free to 
-                    <a href="#contact"> contact me.</a>
+                    <br/>
+                    If you have a project you need to be brought to life, feel free to <a id="contact-me" href="#contact"> contact me.</a>
                 </p>
-                <div className="flex justify-center"> 
+                {/* <div className="flex justify-center"> 
                     <a
                       href="#contact"
                       className=" box inline-flex py-2 px-6 border-0 hover:bg-gray-700 hover:text-white rounded text-lg"
@@ -34,12 +34,12 @@ export default function About() {
                       See My Past Work
                     >
                     </a>
-                </div>
+                </div> */}
             </div>
 
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                 <img
-                  className="object-center rounded-full"
+                  className="first-img object-center rounded-full"
                   alt="Walt"
                   src="./about.gif"
                 />
